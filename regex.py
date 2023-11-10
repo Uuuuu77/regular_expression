@@ -32,6 +32,6 @@ print("Matches : ", len(re.findall("\d", integer_str)))
 another_int = "1234 12345 123456 1234567"
 print("Matches : ", len(re.findall("\d{5,7}", another_int)))
 
-# Example 1 "Creating a matching email lists"
+# Example 1 "Creating a matching email list"
 email_list = "db@hh.com me@.com @apple.com db@.com"
 print("Email matches : ", len(re.findall("[\w._%+-]{1,20}@[-w.-]{2,20}.[A-Za-z]{2,3}", email_list)))
